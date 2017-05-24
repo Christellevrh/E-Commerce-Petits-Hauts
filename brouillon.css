@@ -1,0 +1,217 @@
+
+a:link, a:visited {
+  color: #000000;
+}
+
+
+
+/* Header : Barre navigation */
+/* Menu dans son ensemble */
+#menu, ul{
+padding:0;
+margin: 10px auto 0 auto;
+list-style-type: none;
+height:60px;
+position:relative;
+}
+#menu a {
+text-decoration: none;
+color: black;
+}
+
+/* Box menu + catégories entre elles */
+#menu ul li {
+display: block;
+}
+
+/* Catégories entre elles */
+#menu li {
+  display:inline-block;
+  text-align: center;
+  width: 200px;
+  height: 5px;
+  padding: 10px;
+  font-family:verdana;
+  line-height: 50px;
+  position:relative;
+}
+
+/* Menu dans son ensemble */
+#menu li:hover > ul{
+display: block;
+padding: 2px;
+}
+
+
+#menu li:hover a{
+color:black;
+font-family:verdana;
+font-size: 16px;
+font-weight: bold;
+padding:5px;
+}
+
+.menu1{
+  display: none;
+  position: absolute;
+  background-color: white;
+}
+.menu1 li:hover{
+  color:black;
+  font-family:verdana;
+  font-size: 16px;
+}
+
+
+
+/* Description Produit */
+.cat{
+  color: grey;
+  font-family:verdana;
+  font-size: 14px;
+  text-align: left;
+}
+.produit{
+  width: 45%;
+  height: 10%;
+  margin-right: 6%;
+  margin-left: 13%;
+  float: left;
+}
+.robe{
+  font-family:verdana;
+  color: #D87093;
+  font-size: 22px;
+  margin-right: 10px;
+}
+.prix{
+  font-family:verdana;
+  color: grey;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.detail1{
+  font-family:verdana;
+  color: grey;
+  margin-right: 10px;
+  font-size: 12px;
+  text-align: left;
+}
+.detail2{
+  font-family:verdana;
+  color: #D87093;
+  margin-right:40px;
+  font-size: 12px;
+  text-align: center;
+}
+.description{
+  float: left;
+}
+#bouton{
+  margin-top: 40px;
+  margin-right: 200px;
+  background-color: #D87093;
+  color: white;
+  padding: 22px;
+  text-decoration:none;
+  font-family: verdana;
+  font-size: 14px;
+  border: none;
+  }
+.photos {
+  width: 555px;
+  height: 670px;
+}
+.liste{
+  margin-top: 200px;
+}
+
+  /* js slider */
+.slick-prev:before, .slick-next:before {
+  color: grey !important;
+}
+.box{
+margin-right: 200px;
+float: left;
+}
+.boximage{
+position: relative;
+}
+
+
+/* hover */
+.survol{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255,255,255,0.6);
+  position: absolute;
+  top: 0;
+  left:0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  }
+
+.boximage:hover .survol{
+  display: block;
+}
+
+.survol p{
+  margin-top: 90%;
+  color: #D87093;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+
+.row img{
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+
+/* Slider association produits */
+#bouton1{
+  position: center;
+  background-color: #D87093;
+  color: white;
+  padding: 10px;
+  text-decoration:none;
+  font-family: verdana;
+  font-size: 12px;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 130px;
+  position: center;
+}
+
+
+/* Footer */
+.foot li {
+  margin-top: 80px;
+  float: left;
+  display: inline-block;
+  padding:0;
+  display: block;
+  margin-left: 135px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+#mfoot{
+  font-size: 14px;
+  padding: 0px;
+  font-family: verdana;
+  text-decoration: none;
+}
+  .rs{
+    float: left;
+    margin-left: 85px;
+    margin-bottom: 20px;
+  }
+  .foot a:hover,
+  .foot a:focus {
+    color: #D87093;
+    text-decoration: none;
+  }

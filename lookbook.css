@@ -1,0 +1,112 @@
+a:link, a:visited {
+  color: #000000;
+}
+
+
+
+/* Header : Barre navigation */
+/* Menu dans son ensemble */
+#menu, ul{
+padding:0;
+margin: 10px auto 0 auto;
+list-style-type: none;
+height:60px;
+position:relative;
+}
+#menu a {
+text-decoration: none;
+color: black;
+}
+
+/* Box menu + catégories entre elles */
+#menu ul li {
+display: block;
+}
+
+/* Catégories entre elles */
+#menu li {
+  display:inline-block;
+  text-align: center;
+  width: 200px;
+  height: 5px;
+  padding: 10px;
+  font-family:verdana;
+  line-height: 50px;
+  position:relative;
+}
+
+/* Menu dans son ensemble */
+#menu li:hover > ul{
+display: block;
+padding: 2px;
+}
+
+
+#menu li:hover a{
+color:black;
+font-family:verdana;
+font-size: 16px;
+font-weight: bold;
+padding:5px;
+}
+
+.menu1{
+  display: none;
+  position: absolute;
+  background-color: white;
+}
+.menu1 li:hover{
+  color:black;
+  font-family:verdana;
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+.foot li {
+  margin-top: 80px;
+  float: left;
+  display: inline-block;
+  padding:0;
+  display: block;
+  margin-left: 135px;
+  margin-right: 15px;
+}
+
+#mfoot{
+  font-size: 14px;
+  padding: 0px;
+  font-family: verdana;
+  text-decoration: none;
+}
+
+  .rs{
+    float: left;
+    margin-left: 85px;
+  }
+
+.foot a{
+  text-decoration: none;
+  color: #000000;
+}
+
+
+  .foot a:hover{
+    color: #D87093;
+    text-decoration: none;
+  }
