@@ -2,7 +2,11 @@ a:link, a:visited {
   color: #000000;
 }
 
-
+p{
+  font-family:verdana;
+  font-size: 15px;
+  color: grey;
+}
 
 /* Header : Barre navigation */
 /* Menu dans son ensemble */
@@ -61,51 +65,181 @@ padding:5px;
   font-size: 16px;
 }
 
+.mood{
+  width: 40%;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  display: block;
+}
+
+.ruban{
+  width: 30%;
+  display: block;
+  margin-bottom: 75px;
+}
+
+/* Photos */
+.row img{
+  width: 370px;
+  height: 330px;
+}
+.recette{
+  margin-top: 10px;
+}
+.festival{
+  margin-left: 90px;
+  margin-top: 10px;
+}
+.home{
+  margin-left: 180px;
+  margin-top: 10px;
+}
+.debardeur{
+  margin-top: 10px;
+}
+.illustration{
+  margin-left: 90px;
+  margin-top: 10px;
+}
+.brook{
+  margin-left: 180px;
+  margin-top: 10px;
+}
+.pastel{
+  margin-top: 10px;
+}
+.voyage{
+  margin-left: 90px;
+  margin-top: 10px;
+}
+.couronne{
+  margin-left: 180px;
+  margin-top: 10px;
+}
 
 
 
+#myModal1{
+  margin-top: 62px;
+  margin-left: 8px;
+}
+#myModal2{
+  margin-top: 62px;
+  margin-right: 82px;
+}
+#myModal3{
+  margin-top: 62px;
+  margin-right: 172px;
+}
+#myModal4{
+  margin-top: 102px;
+}
+#myModal5{
+  margin-top: 102px;
+  margin-right: 82px;
+}
+#myModal6{
+  margin-top: 102px;
+  margin-right: 172px;
+}
+#myModal7{
+  margin-top: 142px;
+  margin-left: 8px;
+}
+#myModal8{
+  margin-top: 142px;
+  margin-right: 82px;
+}
+#myModal9{
+  margin-top: 142px;
+  margin-right: 172px;
+}
 
 
-
-
-
-
-
-
-
-
-
+/* hover */
+.boximage{
+position: relative;
+}
+.survol1{
+  width: 370px;
+  height: 330px;
+  margin-top: 10px;
+  background-color: rgba(255,255,255,0.6);
+  position: absolute;
+  display: none;
+  }
+  .survol2{
+    width: 370px;
+    height: 330px;
+    margin-top: 10px;
+    margin-left: 90px;
+    background-color: rgba(254,150,160,0.6);
+    position: absolute;
+    display: none;
+    }
+    .survol3{
+      width: 370px;
+      height: 330px;
+      margin-top: 10px;
+      margin-left: 180px;
+      background-color: rgba(210,202,236,0.6);
+      position: absolute;
+      display: none;
+      }
+.boximage:hover .survol1{
+  display: block;
+}
+.boximage:hover .survol2{
+  display: block;
+}
+.boximage:hover .survol3{
+  display: block;
+}
+.survol1 .fa {
+  margin-top: 42%;
+  color: #D87093;
+  font-size: 16px;
+  font-weight: bold;
+}
+.survol2 .fa{
+  margin-top: 42%;
+  color: #D87093;
+  font-size: 16px;
+  font-weight: bold;
+}
+.survol3 .fa{
+  margin-top: 42%;
+  color: #D87093;
+  font-size: 16px;
+  font-weight: bold;
+}
 
 /* Footer */
-
 .foot li {
   margin-top: 80px;
   float: left;
   display: inline-block;
   padding:0;
   display: block;
-  margin-left: 135px;
+  margin-left: 90px;
   margin-right: 15px;
+  margin-bottom: 40px;
 }
-
 #mfoot{
   font-size: 14px;
   padding: 0px;
   font-family: verdana;
   text-decoration: none;
 }
-
   .rs{
     float: left;
     margin-left: 85px;
+    margin-bottom: 40px;
   }
-
 .foot a{
   text-decoration: none;
   color: #000000;
 }
-
-
   .foot a:hover{
     color: #D87093;
     text-decoration: none;

@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Des Petits Haut - Moodboard</title>
         <meta name="description" content="Christelle H - Moodboard">
-        <link rel="stylesheet" href="moodboard.css" />
+        <link rel="stylesheet" href="lookbook.css" />
         <meta name="language" content="fr">
         <meta name="author" content="Christelle H">
         <meta name="copyright" content="Christelle H">
@@ -15,9 +15,12 @@
 
         <link rel="stylesheet" href="font/css/font-awesome.min.css">
 
-
-        <!-- Bootstrap -->
+<!-- Bootstrap -->
         <link href="bs/css/bootstrap.min.css" rel="stylesheet">
+<!-- JS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   </head>
 
@@ -45,7 +48,9 @@
 <br />
 
 <img class="mood" src="images/mood.png" alt="moodboard">
+<img class="ruban" src="images/ruban.jpg" alt="">
 
+<br />
 <p>Le Moodboard, un rendez-vous pour vous dévoiler nos coups de coeurs, nos bonnes adresses, nos sorties favorites, nos livres préférés, ou des images qui font rêver... Tout ce qui nous fait vibrer et qu'on a envie de partager !</p>
 <br /><br /><br />
 
@@ -53,64 +58,119 @@
 <div class="row">
   <div class="col-xs-6 col-sm-3 col-md-3">
     <div class="boximage">
-      <div class="survol1"><i class="fa fa-camera" aria-hidden="true"></i></div>
+      <div class="survol1"><button type="button" style="border:0px" class="fa fa-camera" aria-hidden="true"data-toggle="modal" data-target="#myModal1"></div>
       <img src="images/recette.jpg" alt="recette" class="recette">
+      <div class="modal fade" id="myModal1" role="dialog">
+        <div class="modal-dialog">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <img src="images/recette.jpg" alt="recette" class="recette">
+          </div>
+          </div>
       </div>
     </div>
     <div class="col-xs-6 col-sm-3 col-md-3">
       <div class="boximage">
-        <div class="survol2"><i class="fa fa-camera" aria-hidden="true"></i></div>
+        <div class="survol2"><button type="button" style="border:0px" class="fa fa-camera" aria-hidden="true"data-toggle="modal" data-target="#myModal2"></div>
         <img src="images/festival.jpg" alt="festival" class="festival">
+        <div class="modal fade" id="myModal2" role="dialog">
+          <div class="modal-dialog">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <img src="images/festival.jpg" alt="festival" class="festival">
+            </div>
+            </div>
       </div>
     </div>
   <div class="col-xs-6 col-sm-3 col-md-3">
     <div class="boximage">
-      <div class="survol3"><i class="fa fa-camera" aria-hidden="true"></i></div>
+      <div class="survol3"><button type="button" style="border:0px" class="fa fa-camera" aria-hidden="true"data-toggle="modal" data-target="#myModal3"></div>
       <img src="images/home.jpg" alt="home" class="home">
+      <div class="modal fade" id="myModal3" role="dialog">
+        <div class="modal-dialog">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <img src="images/home.jpg" alt="home" class="home">
+          </div>
+          </div>
       </div>
     </div>
     </div>
     <div class="row">
       <div class="col-xs-6 col-sm-3 col-md-3">
         <div class="boximage">
-          <div class="survol1"><i class="fa fa-camera" aria-hidden="true"></i></div>
+          <div class="survol1"><button type="button" style="border:0px" class="fa fa-camera" aria-hidden="true"data-toggle="modal" data-target="#myModal4"></div>
           <img src="images/debardeur.png" alt="debardeur" class="debardeur">
+          <div class="modal fade" id="myModal4" role="dialog">
+            <div class="modal-dialog">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <img src="images/debardeur.png" alt="debardeur" class="debardeur">
+              </div>
+              </div>
           </div>
         </div>
         <div class="col-xs-6 col-sm-3 col-md-3">
           <div class="boximage">
-            <div class="survol2"><i class="fa fa-camera" aria-hidden="true"></i></div>
+            <div class="survol2"><button type="button" style="border:0px" class="fa fa-camera" aria-hidden="true"data-toggle="modal" data-target="#myModal5"></div>
           <img src="images/illustration.jpg" alt="illustration" class="illustration">
+          <div class="modal fade" id="myModal5" role="dialog">
+            <div class="modal-dialog">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <img src="images/illustration.jpg" alt="illustration" class="illustration">
+              </div>
+              </div>
           </div>
         </div>
       <div class="col-xs-6 col-sm-3 col-md-3">
         <div class="boximage">
-          <div class="survol3"><i class="fa fa-camera" aria-hidden="true"></i></div>
+          <div class="survol3"><button type="button" style="border:0px" class="fa fa-camera" aria-hidden="true"data-toggle="modal" data-target="#myModal6"></div>
           <img src="images/brook.jpeg" alt="brook" class="brook">
+          <div class="modal fade" id="myModal6" role="dialog">
+            <div class="modal-dialog">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <img src="images/brook.jpeg" alt="brook" class="brook">
+              </div>
+              </div>
           </div>
         </div>
         </div>
         <div class="row">
           <div class="col-xs-6 col-sm-3 col-md-3">
             <div class="boximage">
-              <div class="survol1"><i class="fa fa-camera" aria-hidden="true"></i></div>
+              <div class="survol1"><button type="button" style="border:0px" class="fa fa-camera" aria-hidden="true"data-toggle="modal" data-target="#myModal7"></div>
               <img src="images/pastel.jpg" alt="pastel" class="pastel">
+              <div class="modal fade" id="myModal7" role="dialog">
+                <div class="modal-dialog">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <img src="images/pastel.jpg" alt="pastel" class="pastel">
+                  </div>
+                  </div>
               </div>
             </div>
             <div class="col-xs-6 col-sm-3 col-md-3">
               <div class="boximage">
-                <div class="survol2"><i class="fa fa-camera" aria-hidden="true"></i></div>
-                <img src="images/voyage.jpg" alt="voyage" class="voyage">
+                <div class="survol2"><button type="button" style="border:0px" class="fa fa-camera" aria-hidden="true"data-toggle="modal" data-target="#myModal8"></div>
+                  <img src="images/voyage.jpg" alt="voyage" class="voyage">
+                  <div class="modal fade" id="myModal8" role="dialog">
+                    <div class="modal-dialog">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <img src="images/voyage.jpg" alt="voyage" class="voyage">
+                  </div>
+                  </div>
               </div>
             </div>
           <div class="col-xs-6 col-sm-3 col-md-3">
             <div class="boximage">
-              <div class="survol3"><i class="fa fa-camera" aria-hidden="true"></i></div>
-              <img src="images/couronne.jpg" alt="couronne" class="couronne">
+              <div class="survol3"><button type="button" style="border:0px" class="fa fa-camera" aria-hidden="true"data-toggle="modal" data-target="#myModal9"></div>
+                <img src="images/couronne.jpg" alt="couronne" class="couronne">
+                <div class="modal fade" id="myModal9" role="dialog">
+                  <div class="modal-dialog">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <img src="images/couronne.jpg" alt="couronne fleurs" class="couronne">
+                </div>
+                </div>
+            </div>
           </div>
-      </div>
-            </div>
-            </div>
+        </div>
+
+
 
 
   <!-- Footer -->
@@ -128,6 +188,7 @@
     <!-- bootstrap -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="js/slick/slick.min.js"></script>
+
 
 </body>
 

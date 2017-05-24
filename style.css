@@ -197,7 +197,7 @@ position: relative;
   display: block;
   margin-left: 135px;
   margin-right: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 #mfoot{
   font-size: 14px;
@@ -208,7 +208,7 @@ position: relative;
   .rs{
     float: left;
     margin-left: 85px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
   .foot a:hover,
   .foot a:focus {
